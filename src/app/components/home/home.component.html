@@ -1,0 +1,42 @@
+<!-- {{myData | json}} -->
+
+<!-- <ul *ngFor="let keyValuePair of myData | keyvalue">
+
+
+
+  <li>
+
+    {{ keyValuePair.key }}: {{ keyValuePair.value | json }}
+
+  </li>
+</ul> -->
+
+<!-- <div *ngIf="myData">
+  <ul>
+    <li *ngFor="let item of myData.data">
+      ID: {{ item.id }}
+    </li>
+  </ul>
+</div> -->
+
+<div *ngIf="myData">
+  <ul *ngFor="let player of myData.results" >
+    <li>
+      ID: {{ player.id }}
+    </li>
+    <li>
+      NAME: {{ player.player_name }}
+    </li>
+    <li>
+      AGE: {{ player.age }}
+    </li>
+    <li>
+      GAMES: {{ player.games }}
+    </li>
+    <li>
+      MINUTES PLAYED: {{ player.minutes_played }} MIN
+    </li>
+
+  </ul>
+</div>
+

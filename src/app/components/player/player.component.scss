@@ -66,3 +66,12 @@ ul li span{
   color: rgb(168, 14, 14);
   font-weight: 800;
 }
+
+
+@media (min-width: 300px) and (max-width: 1500px) {
+  ul{
+    min-width: 50%;
+    max-width: 50%;
+  }
+
+}

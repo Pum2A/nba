@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MostPlayedComponent } from './components/most-played/most-played.component';
 import { MostFieldGoalsComponent } from './components/most-field-goals/most-field-goals.component';
+import { MostTwoFieldGoalsComponent } from './components/most-two-field-goals/most-two-field-goals.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { MostFieldGoalsComponent } from './components/most-field-goals/most-fiel
     LogoComponent,
     SearchComponent,
     MostPlayedComponent,
-    MostFieldGoalsComponent
+    MostFieldGoalsComponent,
+    MostTwoFieldGoalsComponent
   ],
   imports: [
     BrowserModule,

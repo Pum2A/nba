@@ -14,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MostPlayedComponent } from './components/most-played/most-played.component';
+import { MostFieldGoalsComponent } from './components/most-field-goals/most-field-goals.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { MostPlayedComponent } from './components/most-played/most-played.compon
     TopComponent,
     LogoComponent,
     SearchComponent,
-    MostPlayedComponent
+    MostPlayedComponent,
+    MostFieldGoalsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+<div class="background-main">
+
+
+  <div class="background" *ngIf="myData">
+    <ng-container *ngFor="let player of myData.results">
+      <ul *ngIf="player.field_goals > 400">
+        <li>NAME: {{ player.player_name }}</li>
+        <li>AGE: {{ player.age }}</li>
+        <li>
+          GAMES:
+          <span>
+            {{ player.games }}
+          </span>
+        </li>
+        <li>
+          MINUTES PLAYED:
+          <span>
+            {{ player.minutes_played }}
+          </span>
+          MIN
+        </li>
+        <li>TEAM: {{ player.team }} MIN</li>
+        <li>FIELD GOALS: {{player.field_goals}}</li>
+        <li>THREE POINT FIELDS: {{player.three_fg}}</li>
+      </ul>
+    </ng-container>
+  </div>
+</div>

@@ -7,11 +7,13 @@ import { SearchComponent } from './components/topbar/search/search.component';
 import { LogoComponent } from './components/topbar/logo/logo.component';
 import { PlayerComponent } from './components/player/player.component';
 import { MostPlayedComponent } from './components/most-played/most-played.component';
+import { MostFieldGoalsComponent } from './components/most-field-goals/most-field-goals.component';
 const routes: Routes = [
 
   { path: '', component: HomeComponent },
   { path: 'player', component: PlayerComponent },
   { path: 'most-played', component: MostPlayedComponent },
+  { path: 'most-field-goals', component: MostFieldGoalsComponent },
 
 
 ];

@@ -6,10 +6,12 @@ import { TopComponent } from './components/topbar/top/top.component';
 import { SearchComponent } from './components/topbar/search/search.component';
 import { LogoComponent } from './components/topbar/logo/logo.component';
 import { PlayerComponent } from './components/player/player.component';
+import { MostPlayedComponent } from './components/most-played/most-played.component';
 const routes: Routes = [
 
   { path: '', component: HomeComponent },
   { path: 'player', component: PlayerComponent },
+  { path: 'most-played', component: MostPlayedComponent },
 
 
 ];

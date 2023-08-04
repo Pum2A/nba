@@ -5,9 +5,11 @@ import { HomeComponent } from './components/home/home.component';
 import { TopComponent } from './components/topbar/top/top.component';
 import { SearchComponent } from './components/topbar/search/search.component';
 import { LogoComponent } from './components/topbar/logo/logo.component';
+import { PlayerComponent } from './components/player/player.component';
 const routes: Routes = [
 
   { path: '', component: HomeComponent },
+  { path: 'player', component: PlayerComponent },
 
 
 ];

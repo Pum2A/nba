@@ -1,42 +1,56 @@
-<!-- {{myData | json}} -->
+<div class="background">
 
-<!-- <ul *ngFor="let keyValuePair of myData | keyvalue">
+  <div class="h1-cont">
+
+    <h1>TOP
+      <span>
 
 
+        100
+      </span>
 
-  <li>
+      PLAYERS OF THE SEASON
+      <span>
 
-    {{ keyValuePair.key }}: {{ keyValuePair.value | json }}
 
-  </li>
-</ul> -->
+        2023
+      </span>
 
-<!-- <div *ngIf="myData">
-  <ul>
-    <li *ngFor="let item of myData.data">
-      ID: {{ item.id }}
-    </li>
-  </ul>
-</div> -->
+    </h1>
+  </div>
 
-<div *ngIf="myData">
-  <ul *ngFor="let player of myData.results" >
-    <li>
-      ID: {{ player.id }}
-    </li>
-    <li>
-      NAME: {{ player.player_name }}
-    </li>
-    <li>
+  <div *ngIf="myData">
+    <ul *ngFor="let player of myData.results" >
+        <li>
+          ID: {{ player.id }}
+        </li>
+        <li>
+          NAME: {{ player.player_name }}
+        </li>
+        <li>
       AGE: {{ player.age }}
     </li>
     <li>
-      GAMES: {{ player.games }}
+      GAMES:
+      <span>
+
+        {{ player.games }}
+      </span>
+
+
     </li>
     <li>
-      MINUTES PLAYED: {{ player.minutes_played }} MIN
+      MINUTES PLAYED: <span>
+
+        {{ player.minutes_played }}
+      </span>
+      MIN
+    </li>
+    <li>
+      TEAM: {{ player.team }} MIN
     </li>
 
   </ul>
 </div>
 
+</div>

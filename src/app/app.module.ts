@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MostPlayedComponent } from './components/most-played/most-played.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     PlayerComponent,
     TopComponent,
     LogoComponent,
-    SearchComponent
+    SearchComponent,
+    MostPlayedComponent
   ],
   imports: [
     BrowserModule,

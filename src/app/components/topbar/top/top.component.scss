@@ -1,11 +1,12 @@
 .top{
-  background-color: #242424;
+  background-color: #020202;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   height: 8rem;
+  border-bottom: 1px solid #202020;
 }
 .logo{
   min-width: 10rem;
@@ -22,10 +23,19 @@
   align-items: center;
 }
 
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
 nav a{
   font-size: 1.5rem;
-
+  margin: 1rem 1rem;
+  background-color: #090909;
+  padding: 1.4rem;
+  border: 3px solid #fff;
 }

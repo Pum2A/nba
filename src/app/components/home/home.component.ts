@@ -1,6 +1,5 @@
 import { Component, OnInit  } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
-import { catchError, map, take, tap } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({

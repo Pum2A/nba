@@ -9,7 +9,8 @@
   border-bottom: 1px solid #202020;
 }
 .logo{
-  min-width: 10rem;
+  min-width: 7rem;
+  max-width: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +30,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 
@@ -39,15 +41,31 @@ nav a{
   background-color: #090909;
   padding: 1.4rem;
   border: 3px solid #fff;
+
+}
+span{
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  // height: 20rem;
+  // width: 100%;
+
 }
 
 
 @media (min-width: 300px) and (max-width: 1500px) {
   nav a{
     font-size: 1rem;
-    padding: 0.01rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
-    min-width: 5rem;
+    height: 1rem;
+    min-width: 2rem;
+    max-width: 2rem;
     text-align: center;
   }
 

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class TopComponent {
 
+
+  isClicked = false;
+
+  isClickedMenu() {
+    this.isClicked = !this.isClicked;
+    console.log('click');
+  }
 }

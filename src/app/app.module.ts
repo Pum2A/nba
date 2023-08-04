@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MostPlayedComponent } from './components/most-played/most-played.component';
 import { MostFieldGoalsComponent } from './components/most-field-goals/most-field-goals.component';
 import { MostTwoFieldGoalsComponent } from './components/most-two-field-goals/most-two-field-goals.component';
+import { MostThreeFieldGoalsComponent } from './components/most-three-field-goals/most-three-field-goals.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { MostTwoFieldGoalsComponent } from './components/most-two-field-goals/mo
     SearchComponent,
     MostPlayedComponent,
     MostFieldGoalsComponent,
-    MostTwoFieldGoalsComponent
+    MostTwoFieldGoalsComponent,
+    MostThreeFieldGoalsComponent
   ],
   imports: [
     BrowserModule,

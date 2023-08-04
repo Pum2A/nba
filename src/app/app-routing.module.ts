@@ -9,6 +9,7 @@ import { PlayerComponent } from './components/player/player.component';
 import { MostPlayedComponent } from './components/most-played/most-played.component';
 import { MostFieldGoalsComponent } from './components/most-field-goals/most-field-goals.component';
 import { MostTwoFieldGoalsComponent } from './components/most-two-field-goals/most-two-field-goals.component';
+import { MostThreeFieldGoalsComponent } from './components/most-three-field-goals/most-three-field-goals.component';
 const routes: Routes = [
 
   { path: '', component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'most-played', component: MostPlayedComponent },
   { path: 'most-field-goals', component: MostFieldGoalsComponent },
   { path: 'most-two-field-goals', component: MostTwoFieldGoalsComponent },
+  { path: 'most-three-field-goals', component: MostThreeFieldGoalsComponent },
 
 
 ];
